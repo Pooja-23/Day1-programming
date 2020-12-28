@@ -1,12 +1,15 @@
-import java.util.*;
-public class WrapperClass {
+public class WrapperClass
+{
+static double salary = 1000;
 
-	public static void main(String args[]) 
-	{
-		String a="23";
-		System.out.println(a);
-		// TODO Auto-generated method stub
-
-	}
-
+public static void main(String args[]) {
+double salary = 2000;
+System.out.println("Inside salary:" + salary);
+test();
 }
+public static void test (){
+System.out.println("Outside salary:" + salary);
+}
+}
+
+

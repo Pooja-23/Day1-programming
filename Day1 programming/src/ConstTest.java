@@ -2,7 +2,7 @@
 	{
 	 int rollno;
 	 String name;
-	 String college = "REC";
+	 static String college = "REC";
 	 StudentInfo(int a,String b)
 	 {
 		 rollno=a;
